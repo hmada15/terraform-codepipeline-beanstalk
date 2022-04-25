@@ -1,0 +1,1 @@
+Terrafrom code to setup AWS Elastic Beanstalk and ci/cd using AWS Code Pipeline to deploy laravel application from githup.
