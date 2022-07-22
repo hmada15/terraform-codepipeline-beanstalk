@@ -14,3 +14,19 @@ variable "key_name" {
   type        = string
   default     = ""
 }
+
+variable "codestar_connection_Arn" {
+  description = "CodeStar Connection ARN that allow CodePipline to connect to the git repository provider"
+  type        = string
+}
+
+variable "repository_name" {
+  description = "repository name like that organization/example"
+  type        = string
+}
+
+variable "branch_name" {
+  description = "branch_name"
+  type        = string
+  default     = "master"
+}

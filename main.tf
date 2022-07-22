@@ -53,9 +53,9 @@ resource "aws_codepipeline" "this" {
       output_artifacts = ["source_output"]
 
       configuration = {
-        ConnectionArn    = "arn:aws:codestar-connections:eu-central-1:111205789458:connection/44440b8a-a79a-46a3-9ba9-df30408949bd"
-        FullRepositoryId = "hmada15/laravel_beanstalk"
-        BranchName       = "master"
+        ConnectionArn    = var.codestar_connection_Arn
+        FullRepositoryId = var.repository_name
+        BranchName       = var.branch_name
       }
     }
   }
