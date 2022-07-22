@@ -5,12 +5,6 @@ terraform {
       version = "~> 3.27"
     }
   }
-  backend "s3" {
-    bucket = "hmada15--terraform-test"
-    key    = "state"
-    region = "eu-central-1"
-  }
-  required_version = ">= 0.14.9"
 }
 
 provider "aws" {
