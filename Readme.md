@@ -1,5 +1,5 @@
 # Elastic Beanstalk, Code Pipeline and a git repository provider
- Terrafrom code to setup AWS Elastic Beanstalk with ci/cd using AWS Code Pipeline to deploy Laravel application from GitHub. 
+ Terraform code to setup AWS Elastic Beanstalk with ci/cd using AWS Code Pipeline to deploy Laravel application from GitHub. 
  
 ## Usage
 To run this example you must setup terraform first then you need to execute:
